@@ -15,4 +15,4 @@ logging:
   file:
     max-history: 150
 
-tokenKeyUri: http://server.sso.com:888/oauth/token_key
+tokenKeyUri: http://localhost:888/oauth/token_key

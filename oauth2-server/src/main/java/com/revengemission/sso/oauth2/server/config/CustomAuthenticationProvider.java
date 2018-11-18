@@ -46,13 +46,13 @@ public class CustomAuthenticationProvider extends AbstractUserDetailsAuthenticat
     protected UserDetails retrieveUser(String username, UsernamePasswordAuthenticationToken authentication) throws AuthenticationException {
 
         //添加额外处理，如验证码等
-        Object details = authentication.getDetails();
-        if (details instanceof CustomWebAuthenticationDetails) {
-            CustomWebAuthenticationDetails customWebAuthenticationDetails = (CustomWebAuthenticationDetails) details;
-            if (!StringUtils.equalsIgnoreCase(customWebAuthenticationDetails.getInputVerificationCode(), customWebAuthenticationDetails.getSessionVerificationCode())) {
-                throw new VerificationCodeException("验证码错误！");
-            }
-        }
+//        Object details = authentication.getDetails();
+//        if (details instanceof CustomWebAuthenticationDetails) {
+//            CustomWebAuthenticationDetails customWebAuthenticationDetails = (CustomWebAuthenticationDetails) details;
+//            if (!StringUtils.equalsIgnoreCase(customWebAuthenticationDetails.getInputVerificationCode(), customWebAuthenticationDetails.getSessionVerificationCode())) {
+//                throw new VerificationCodeException("验证码错误！");
+//            }
+//        }
 
         try {
             UserDetails loadedUser = userService.loadUserByUsername(username);

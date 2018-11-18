@@ -15,4 +15,6 @@ public class CouponController {
         System.out.println(principal);
         return "many to many";
     }
+
+
 }

@@ -24,13 +24,13 @@ import java.security.Principal;
 public class SignInAndUpController {
 
     @Autowired
-    UserAccountService userAccountService;
+    private UserAccountService userAccountService;
 
     @Autowired
-    ClientDetailsService clientDetailsService;
+    private ClientDetailsService clientDetailsService;
 
     @Autowired
-    PasswordEncoder passwordEncoder;
+    private PasswordEncoder passwordEncoder;
 
     @GetMapping("/signIn")
     public String signIn(@RequestParam(value = "error", required = false) String error,
@@ -42,9 +42,7 @@ public class SignInAndUpController {
     }
 
     @GetMapping("/signUp")
-    public String signUp(HttpServletRequest request,
-                         @RequestParam(value = "error", required = false) String error,
-                         Model model) {
+    public String signUp(HttpServletRequest request, @RequestParam(value = "error", required = false) String error, Model model) {
         if (StringUtils.isNotEmpty(error)) {
             model.addAttribute("error", error);
         }
@@ -84,13 +82,6 @@ public class SignInAndUpController {
         if (CheckPasswordStrength.check(password) < 4) {
             responseResult.setStatus(GlobalConstant.ERROR);
             responseResult.setMessage("密码应包含字母、数字、符号");
-            return responseResult;
-        }
-
-        String sessionVerificationCode = String.valueOf(request.getSession().getAttribute(GlobalConstant.VERIFICATION_CODE));
-        if (!StringUtils.equalsIgnoreCase(verificationCode, sessionVerificationCode)) {
-            responseResult.setStatus(GlobalConstant.ERROR);
-            responseResult.setMessage("验证码错误");
             return responseResult;
         }
         UserAccount userAccount = new UserAccount();

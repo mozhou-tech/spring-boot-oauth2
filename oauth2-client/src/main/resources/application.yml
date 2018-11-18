@@ -5,16 +5,15 @@ security:
     client:
       id: server
       client-id: SampleClientId
-      client-secret: secret
+      client-secret: 123456
       grant-type: authorization_code
       scope: read
-      access-token-uri: http://server.sso.com:888/oauth/token
-      user-authorization-uri: http://server.sso.com:888/oauth/authorize
-      check-token-uri: http://server.sso.com:888/oauth/check_token
+      access-token-uri: http://localhost:888/oauth/token
+      user-authorization-uri: http://localhost:888/oauth/authorize
+      check-token-uri: http://localhost:888/oauth/check_token
       pre-established-redirect-uri: /login
     resource:
-      user-info-uri: http://server.sso.com:886/user/me
-
+      user-info-uri: http://localhost:888/user/me
 
 spring:
   thymeleaf:

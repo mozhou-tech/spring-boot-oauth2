@@ -21,15 +21,12 @@ public class FrontIndexController {
     OAuth2RestTemplate oAuth2RestTemplate;
 
     @GetMapping(value = {"/", "/index"})
-    public String index(HttpServletRequest request,
-                        Model model) {
-
+    public String index(HttpServletRequest request, Model model) {
         return "index";
     }
 
     @GetMapping(value = "/user")
-    public String user(HttpServletRequest request,
-                       Model model) {
+    public String user(HttpServletRequest request, Model model) {
         Map<String, String> result = new HashMap<>();
         result = oAuth2RestTemplate.getForObject(userInfoUri, result.getClass());
         System.out.println("result= " + result);
@@ -37,10 +34,7 @@ public class FrontIndexController {
     }
 
     @GetMapping(value = "/error")
-    public String error(HttpServletRequest request,
-                        Model model) {
-
-
+    public String error(HttpServletRequest request, Model model) {
         return "securedPage";
     }
 }
