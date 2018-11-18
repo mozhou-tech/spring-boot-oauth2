@@ -2,561 +2,186 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="81971658-73fb-4e96-ba4f-8508afcfe25d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/spring-boot-oauth2.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-client/.gitattributes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-client/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-client/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-client/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-client/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-client/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-client/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-client/src/main/java/com/revengemission/sso/oauth2/client/Oauth2ClientApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-client/src/main/java/com/revengemission/sso/oauth2/client/config/Oauth2ClientConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-client/src/main/java/com/revengemission/sso/oauth2/client/config/SecurityConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-client/src/main/java/com/revengemission/sso/oauth2/client/controller/FrontIndexController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-client/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-client/src/main/resources/static/assets/bootstrap/css/bootstrap-grid.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-client/src/main/resources/static/assets/bootstrap/css/bootstrap-grid.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-client/src/main/resources/static/assets/bootstrap/css/bootstrap-grid.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-client/src/main/resources/static/assets/bootstrap/css/bootstrap-grid.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-client/src/main/resources/static/assets/bootstrap/css/bootstrap-reboot.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-client/src/main/resources/static/assets/bootstrap/css/bootstrap-reboot.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-client/src/main/resources/static/assets/bootstrap/css/bootstrap-reboot.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-client/src/main/resources/static/assets/bootstrap/css/bootstrap-reboot.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-client/src/main/resources/static/assets/bootstrap/css/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-client/src/main/resources/static/assets/bootstrap/css/bootstrap.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-client/src/main/resources/static/assets/bootstrap/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-client/src/main/resources/static/assets/bootstrap/css/bootstrap.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-client/src/main/resources/static/assets/bootstrap/js/bootstrap.bundle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-client/src/main/resources/static/assets/bootstrap/js/bootstrap.bundle.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-client/src/main/resources/static/assets/bootstrap/js/bootstrap.bundle.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-client/src/main/resources/static/assets/bootstrap/js/bootstrap.bundle.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-client/src/main/resources/static/assets/bootstrap/js/bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-client/src/main/resources/static/assets/bootstrap/js/bootstrap.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-client/src/main/resources/static/assets/bootstrap/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-client/src/main/resources/static/assets/bootstrap/js/bootstrap.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-client/src/main/resources/static/assets/fontawesome-all.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-client/src/main/resources/static/assets/jqGrid-master/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-client/src/main/resources/static/assets/jqGrid-master/Gruntfile.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-client/src/main/resources/static/assets/jqGrid-master/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-client/src/main/resources/static/assets/jqGrid-master/bower.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-client/src/main/resources/static/assets/jqGrid-master/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-client/src/main/resources/static/assets/jqGrid-master/build.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-client/src/main/resources/static/assets/jqGrid-master/build.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-client/src/main/resources/static/assets/jqGrid-master/config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-client/src/main/resources/static/assets/jqGrid-master/css/addons/ui.multiselect.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-client/src/main/resources/static/assets/jqGrid-master/css/ui.jqgrid-bootstrap-ui.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-client/src/main/resources/static/assets/jqGrid-master/css/ui.jqgrid-bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-client/src/main/resources/static/assets/jqGrid-master/css/ui.jqgrid.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-client/src/main/resources/static/assets/jqGrid-master/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-client/src/main/resources/static/assets/jqGrid-master/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-client/src/main/resources/static/assets/jqGrid-master/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-client/src/main/resources/static/assets/jqGrid-master/install.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-client/src/main/resources/static/assets/jqGrid-master/jqGrid.jquery.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-client/src/main/resources/static/assets/jqGrid-master/jqGrid.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-client/src/main/resources/static/assets/jqGrid-master/jquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-client/src/main/resources/static/assets/jqGrid-master/js/addons/ui.multiselect.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-client/src/main/resources/static/assets/jqGrid-master/js/grid.base.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-client/src/main/resources/static/assets/jqGrid-master/js/grid.celledit.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-client/src/main/resources/static/assets/jqGrid-master/js/grid.common.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-client/src/main/resources/static/assets/jqGrid-master/js/grid.filter.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-client/src/main/resources/static/assets/jqGrid-master/js/grid.formedit.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-client/src/main/resources/static/assets/jqGrid-master/js/grid.grouping.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-client/src/main/resources/static/assets/jqGrid-master/js/grid.import.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-client/src/main/resources/static/assets/jqGrid-master/js/grid.inlinedit.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-client/src/main/resources/static/assets/jqGrid-master/js/grid.jqueryui.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-client/src/main/resources/static/assets/jqGrid-master/js/grid.pivot.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-client/src/main/resources/static/assets/jqGrid-master/js/grid.subgrid.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-client/src/main/resources/static/assets/jqGrid-master/js/grid.treegrid.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-client/src/main/resources/static/assets/jqGrid-master/js/grid.utils.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-client/src/main/resources/static/assets/jqGrid-master/js/i18n/grid.locale-ar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-client/src/main/resources/static/assets/jqGrid-master/js/i18n/grid.locale-bg.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-client/src/main/resources/static/assets/jqGrid-master/js/i18n/grid.locale-ca.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-client/src/main/resources/static/assets/jqGrid-master/js/i18n/grid.locale-cn.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-client/src/main/resources/static/assets/jqGrid-master/js/i18n/grid.locale-cs.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-client/src/main/resources/static/assets/jqGrid-master/js/i18n/grid.locale-de.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-client/src/main/resources/static/assets/jqGrid-master/js/i18n/grid.locale-dk.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-client/src/main/resources/static/assets/jqGrid-master/js/i18n/grid.locale-el.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-client/src/main/resources/static/assets/jqGrid-master/js/i18n/grid.locale-en.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-client/src/main/resources/static/assets/jqGrid-master/js/i18n/grid.locale-es.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-client/src/main/resources/static/assets/jqGrid-master/js/i18n/grid.locale-fa.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-client/src/main/resources/static/assets/jqGrid-master/js/i18n/grid.locale-fi.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-client/src/main/resources/static/assets/jqGrid-master/js/i18n/grid.locale-fr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-client/src/main/resources/static/assets/jqGrid-master/js/i18n/grid.locale-gl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-client/src/main/resources/static/assets/jqGrid-master/js/i18n/grid.locale-he.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-client/src/main/resources/static/assets/jqGrid-master/js/i18n/grid.locale-hr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-client/src/main/resources/static/assets/jqGrid-master/js/i18n/grid.locale-hu.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-client/src/main/resources/static/assets/jqGrid-master/js/i18n/grid.locale-id.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-client/src/main/resources/static/assets/jqGrid-master/js/i18n/grid.locale-is.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-client/src/main/resources/static/assets/jqGrid-master/js/i18n/grid.locale-it.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-client/src/main/resources/static/assets/jqGrid-master/js/i18n/grid.locale-ja.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-client/src/main/resources/static/assets/jqGrid-master/js/i18n/grid.locale-kr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-client/src/main/resources/static/assets/jqGrid-master/js/i18n/grid.locale-lt.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-client/src/main/resources/static/assets/jqGrid-master/js/i18n/grid.locale-me.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-client/src/main/resources/static/assets/jqGrid-master/js/i18n/grid.locale-nl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-client/src/main/resources/static/assets/jqGrid-master/js/i18n/grid.locale-no.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-client/src/main/resources/static/assets/jqGrid-master/js/i18n/grid.locale-pl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-client/src/main/resources/static/assets/jqGrid-master/js/i18n/grid.locale-pt-br.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-client/src/main/resources/static/assets/jqGrid-master/js/i18n/grid.locale-pt.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-client/src/main/resources/static/assets/jqGrid-master/js/i18n/grid.locale-ro.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-client/src/main/resources/static/assets/jqGrid-master/js/i18n/grid.locale-ru.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-client/src/main/resources/static/assets/jqGrid-master/js/i18n/grid.locale-sk.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-client/src/main/resources/static/assets/jqGrid-master/js/i18n/grid.locale-sq.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-client/src/main/resources/static/assets/jqGrid-master/js/i18n/grid.locale-sr-latin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-client/src/main/resources/static/assets/jqGrid-master/js/i18n/grid.locale-sr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-client/src/main/resources/static/assets/jqGrid-master/js/i18n/grid.locale-sv.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-client/src/main/resources/static/assets/jqGrid-master/js/i18n/grid.locale-th.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-client/src/main/resources/static/assets/jqGrid-master/js/i18n/grid.locale-tr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-client/src/main/resources/static/assets/jqGrid-master/js/i18n/grid.locale-tw.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-client/src/main/resources/static/assets/jqGrid-master/js/i18n/grid.locale-uk.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-client/src/main/resources/static/assets/jqGrid-master/js/i18n/grid.locale-vi.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-client/src/main/resources/static/assets/jqGrid-master/js/jqDnR.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-client/src/main/resources/static/assets/jqGrid-master/js/jqModal.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-client/src/main/resources/static/assets/jqGrid-master/js/jquery.fmatter.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-client/src/main/resources/static/assets/jqGrid-master/js/jquery.jqGrid.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-client/src/main/resources/static/assets/jqGrid-master/js/jquery.jqGrid.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-client/src/main/resources/static/assets/jqGrid-master/js/jquery.jqGrid.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-client/src/main/resources/static/assets/jqGrid-master/js/jquery.sortable.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-client/src/main/resources/static/assets/jqGrid-master/js/minified/grid.base.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-client/src/main/resources/static/assets/jqGrid-master/js/minified/grid.celledit.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-client/src/main/resources/static/assets/jqGrid-master/js/minified/grid.common.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-client/src/main/resources/static/assets/jqGrid-master/js/minified/grid.filter.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-client/src/main/resources/static/assets/jqGrid-master/js/minified/grid.formedit.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-client/src/main/resources/static/assets/jqGrid-master/js/minified/grid.grouping.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-client/src/main/resources/static/assets/jqGrid-master/js/minified/grid.import.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-client/src/main/resources/static/assets/jqGrid-master/js/minified/grid.inlinedit.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-client/src/main/resources/static/assets/jqGrid-master/js/minified/grid.jqueryui.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-client/src/main/resources/static/assets/jqGrid-master/js/minified/grid.pivot.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-client/src/main/resources/static/assets/jqGrid-master/js/minified/grid.subgrid.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-client/src/main/resources/static/assets/jqGrid-master/js/minified/grid.treegrid.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-client/src/main/resources/static/assets/jqGrid-master/js/minified/grid.utils.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-client/src/main/resources/static/assets/jqGrid-master/js/minified/i18n/grid.locale-ar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-client/src/main/resources/static/assets/jqGrid-master/js/minified/i18n/grid.locale-bg.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-client/src/main/resources/static/assets/jqGrid-master/js/minified/i18n/grid.locale-ca.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-client/src/main/resources/static/assets/jqGrid-master/js/minified/i18n/grid.locale-cn.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-client/src/main/resources/static/assets/jqGrid-master/js/minified/i18n/grid.locale-cs.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-client/src/main/resources/static/assets/jqGrid-master/js/minified/i18n/grid.locale-de.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-client/src/main/resources/static/assets/jqGrid-master/js/minified/i18n/grid.locale-dk.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-client/src/main/resources/static/assets/jqGrid-master/js/minified/i18n/grid.locale-el.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-client/src/main/resources/static/assets/jqGrid-master/js/minified/i18n/grid.locale-en.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-client/src/main/resources/static/assets/jqGrid-master/js/minified/i18n/grid.locale-es.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-client/src/main/resources/static/assets/jqGrid-master/js/minified/i18n/grid.locale-fa.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-client/src/main/resources/static/assets/jqGrid-master/js/minified/i18n/grid.locale-fi.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-client/src/main/resources/static/assets/jqGrid-master/js/minified/i18n/grid.locale-fr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-client/src/main/resources/static/assets/jqGrid-master/js/minified/i18n/grid.locale-gl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-client/src/main/resources/static/assets/jqGrid-master/js/minified/i18n/grid.locale-he.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-client/src/main/resources/static/assets/jqGrid-master/js/minified/i18n/grid.locale-hr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-client/src/main/resources/static/assets/jqGrid-master/js/minified/i18n/grid.locale-hu.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-client/src/main/resources/static/assets/jqGrid-master/js/minified/i18n/grid.locale-id.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-client/src/main/resources/static/assets/jqGrid-master/js/minified/i18n/grid.locale-is.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-client/src/main/resources/static/assets/jqGrid-master/js/minified/i18n/grid.locale-it.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-client/src/main/resources/static/assets/jqGrid-master/js/minified/i18n/grid.locale-ja.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-client/src/main/resources/static/assets/jqGrid-master/js/minified/i18n/grid.locale-kr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-client/src/main/resources/static/assets/jqGrid-master/js/minified/i18n/grid.locale-lt.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-client/src/main/resources/static/assets/jqGrid-master/js/minified/i18n/grid.locale-me.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-client/src/main/resources/static/assets/jqGrid-master/js/minified/i18n/grid.locale-nl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-client/src/main/resources/static/assets/jqGrid-master/js/minified/i18n/grid.locale-no.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-client/src/main/resources/static/assets/jqGrid-master/js/minified/i18n/grid.locale-pl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-client/src/main/resources/static/assets/jqGrid-master/js/minified/i18n/grid.locale-pt-br.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-client/src/main/resources/static/assets/jqGrid-master/js/minified/i18n/grid.locale-pt.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-client/src/main/resources/static/assets/jqGrid-master/js/minified/i18n/grid.locale-ro.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-client/src/main/resources/static/assets/jqGrid-master/js/minified/i18n/grid.locale-ru.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-client/src/main/resources/static/assets/jqGrid-master/js/minified/i18n/grid.locale-sk.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-client/src/main/resources/static/assets/jqGrid-master/js/minified/i18n/grid.locale-sq.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-client/src/main/resources/static/assets/jqGrid-master/js/minified/i18n/grid.locale-sr-latin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-client/src/main/resources/static/assets/jqGrid-master/js/minified/i18n/grid.locale-sr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-client/src/main/resources/static/assets/jqGrid-master/js/minified/i18n/grid.locale-sv.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-client/src/main/resources/static/assets/jqGrid-master/js/minified/i18n/grid.locale-th.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-client/src/main/resources/static/assets/jqGrid-master/js/minified/i18n/grid.locale-tr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-client/src/main/resources/static/assets/jqGrid-master/js/minified/i18n/grid.locale-tw.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-client/src/main/resources/static/assets/jqGrid-master/js/minified/i18n/grid.locale-ua.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-client/src/main/resources/static/assets/jqGrid-master/js/minified/i18n/grid.locale-uk.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-client/src/main/resources/static/assets/jqGrid-master/js/minified/i18n/grid.locale-vi.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-client/src/main/resources/static/assets/jqGrid-master/js/minified/jqDnR.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-client/src/main/resources/static/assets/jqGrid-master/js/minified/jqModal.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-client/src/main/resources/static/assets/jqGrid-master/js/minified/jquery.fmatter.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-client/src/main/resources/static/assets/jqGrid-master/js/minified/jquery.sortable.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-client/src/main/resources/static/assets/jqGrid-master/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-client/src/main/resources/static/assets/jqGrid-master/plugins/grid.addons.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-client/src/main/resources/static/assets/jqGrid-master/plugins/grid.postext.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-client/src/main/resources/static/assets/jqGrid-master/plugins/grid.setcolumns.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-client/src/main/resources/static/assets/jqGrid-master/plugins/grid.tbltogrid.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-client/src/main/resources/static/assets/jqGrid-master/plugins/jquery.contextmenu.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-client/src/main/resources/static/assets/jqGrid-master/plugins/jquery.searchFilter.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-client/src/main/resources/static/assets/jqGrid-master/plugins/jquery.tablednd.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-client/src/main/resources/static/assets/jqGrid-master/plugins/searchFilter.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-client/src/main/resources/static/assets/jquery-3.3.1.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-client/src/main/resources/static/assets/localforage.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-client/src/main/resources/static/assets/moment-with-locales.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-client/src/main/resources/static/assets/web-fonts-with-css/css/fa-brands.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-client/src/main/resources/static/assets/web-fonts-with-css/css/fa-brands.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-client/src/main/resources/static/assets/web-fonts-with-css/css/fa-regular.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-client/src/main/resources/static/assets/web-fonts-with-css/css/fa-regular.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-client/src/main/resources/static/assets/web-fonts-with-css/css/fa-solid.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-client/src/main/resources/static/assets/web-fonts-with-css/css/fa-solid.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-client/src/main/resources/static/assets/web-fonts-with-css/css/fontawesome-all.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-client/src/main/resources/static/assets/web-fonts-with-css/css/fontawesome-all.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-client/src/main/resources/static/assets/web-fonts-with-css/css/fontawesome.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-client/src/main/resources/static/assets/web-fonts-with-css/css/fontawesome.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-client/src/main/resources/static/assets/web-fonts-with-css/less/_animated.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-client/src/main/resources/static/assets/web-fonts-with-css/less/_bordered-pulled.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-client/src/main/resources/static/assets/web-fonts-with-css/less/_core.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-client/src/main/resources/static/assets/web-fonts-with-css/less/_fixed-width.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-client/src/main/resources/static/assets/web-fonts-with-css/less/_icons.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-client/src/main/resources/static/assets/web-fonts-with-css/less/_larger.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-client/src/main/resources/static/assets/web-fonts-with-css/less/_list.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-client/src/main/resources/static/assets/web-fonts-with-css/less/_mixins.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-client/src/main/resources/static/assets/web-fonts-with-css/less/_rotated-flipped.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-client/src/main/resources/static/assets/web-fonts-with-css/less/_screen-reader.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-client/src/main/resources/static/assets/web-fonts-with-css/less/_stacked.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-client/src/main/resources/static/assets/web-fonts-with-css/less/_variables.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-client/src/main/resources/static/assets/web-fonts-with-css/less/fa-brands.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-client/src/main/resources/static/assets/web-fonts-with-css/less/fa-regular.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-client/src/main/resources/static/assets/web-fonts-with-css/less/fa-solid.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-client/src/main/resources/static/assets/web-fonts-with-css/less/fontawesome.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-client/src/main/resources/static/assets/web-fonts-with-css/scss/_animated.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-client/src/main/resources/static/assets/web-fonts-with-css/scss/_bordered-pulled.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-client/src/main/resources/static/assets/web-fonts-with-css/scss/_core.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-client/src/main/resources/static/assets/web-fonts-with-css/scss/_fixed-width.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-client/src/main/resources/static/assets/web-fonts-with-css/scss/_icons.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-client/src/main/resources/static/assets/web-fonts-with-css/scss/_larger.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-client/src/main/resources/static/assets/web-fonts-with-css/scss/_list.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-client/src/main/resources/static/assets/web-fonts-with-css/scss/_mixins.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-client/src/main/resources/static/assets/web-fonts-with-css/scss/_rotated-flipped.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-client/src/main/resources/static/assets/web-fonts-with-css/scss/_screen-reader.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-client/src/main/resources/static/assets/web-fonts-with-css/scss/_stacked.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-client/src/main/resources/static/assets/web-fonts-with-css/scss/_variables.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-client/src/main/resources/static/assets/web-fonts-with-css/scss/fa-brands.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-client/src/main/resources/static/assets/web-fonts-with-css/scss/fa-regular.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-client/src/main/resources/static/assets/web-fonts-with-css/scss/fa-solid.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-client/src/main/resources/static/assets/web-fonts-with-css/scss/fontawesome.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-client/src/main/resources/static/assets/web-fonts-with-css/webfonts/fa-brands-400.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-client/src/main/resources/static/assets/web-fonts-with-css/webfonts/fa-brands-400.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-client/src/main/resources/static/assets/web-fonts-with-css/webfonts/fa-brands-400.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-client/src/main/resources/static/assets/web-fonts-with-css/webfonts/fa-brands-400.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-client/src/main/resources/static/assets/web-fonts-with-css/webfonts/fa-brands-400.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-client/src/main/resources/static/assets/web-fonts-with-css/webfonts/fa-regular-400.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-client/src/main/resources/static/assets/web-fonts-with-css/webfonts/fa-regular-400.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-client/src/main/resources/static/assets/web-fonts-with-css/webfonts/fa-regular-400.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-client/src/main/resources/static/assets/web-fonts-with-css/webfonts/fa-regular-400.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-client/src/main/resources/static/assets/web-fonts-with-css/webfonts/fa-regular-400.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-client/src/main/resources/static/assets/web-fonts-with-css/webfonts/fa-solid-900.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-client/src/main/resources/static/assets/web-fonts-with-css/webfonts/fa-solid-900.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-client/src/main/resources/static/assets/web-fonts-with-css/webfonts/fa-solid-900.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-client/src/main/resources/static/assets/web-fonts-with-css/webfonts/fa-solid-900.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-client/src/main/resources/static/assets/web-fonts-with-css/webfonts/fa-solid-900.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-client/src/main/resources/templates/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-client/src/main/resources/templates/securedPage.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-client/src/test/java/com/revengemission/sso/oauth2/client/ApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-resource/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-resource/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-resource/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-resource/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-resource/src/main/java/com/revengemission/sso/oauth2/resource/coupon/JSONUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-resource/src/main/java/com/revengemission/sso/oauth2/resource/coupon/ResourceServerApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-resource/src/main/java/com/revengemission/sso/oauth2/resource/coupon/WebRequestLogAspect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-resource/src/main/java/com/revengemission/sso/oauth2/resource/coupon/config/ResourceServerConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-resource/src/main/java/com/revengemission/sso/oauth2/resource/coupon/controller/CouponController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-resource/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-resource/src/main/resources/public.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-resource/src/main/resources/static/1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-resource/src/main/resources/templates/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-server/.gitattributes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-server/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-server/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-server/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-server/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-server/src/main/java/com/revengemission/sso/oauth2/server/Oauth2ServerApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-server/src/main/java/com/revengemission/sso/oauth2/server/ServerExceptionHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-server/src/main/java/com/revengemission/sso/oauth2/server/WebRequestLogAspect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-server/src/main/java/com/revengemission/sso/oauth2/server/config/AuthorizationServerConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-server/src/main/java/com/revengemission/sso/oauth2/server/config/CustomAccessDeniedHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-server/src/main/java/com/revengemission/sso/oauth2/server/config/CustomAuthenticationDetailsSource.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-server/src/main/java/com/revengemission/sso/oauth2/server/config/CustomAuthenticationFailureHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-server/src/main/java/com/revengemission/sso/oauth2/server/config/CustomAuthenticationProvider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-server/src/main/java/com/revengemission/sso/oauth2/server/config/CustomAuthenticationSuccessHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-server/src/main/java/com/revengemission/sso/oauth2/server/config/CustomWebAuthenticationDetails.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-server/src/main/java/com/revengemission/sso/oauth2/server/config/OthersConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-server/src/main/java/com/revengemission/sso/oauth2/server/config/ResourceServerConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-server/src/main/java/com/revengemission/sso/oauth2/server/config/SecurityConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-server/src/main/java/com/revengemission/sso/oauth2/server/controller/AccessConfirmationController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-server/src/main/java/com/revengemission/sso/oauth2/server/controller/ManageClientController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-server/src/main/java/com/revengemission/sso/oauth2/server/controller/ManageUserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-server/src/main/java/com/revengemission/sso/oauth2/server/controller/ProfileController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-server/src/main/java/com/revengemission/sso/oauth2/server/controller/SignInAndUpController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-server/src/main/java/com/revengemission/sso/oauth2/server/controller/VerificationCodeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-server/src/main/java/com/revengemission/sso/oauth2/server/domain/AlreadyExistsException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-server/src/main/java/com/revengemission/sso/oauth2/server/domain/AlreadyExpiredException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-server/src/main/java/com/revengemission/sso/oauth2/server/domain/BaseDomain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-server/src/main/java/com/revengemission/sso/oauth2/server/domain/EntityNotFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-server/src/main/java/com/revengemission/sso/oauth2/server/domain/GenderEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-server/src/main/java/com/revengemission/sso/oauth2/server/domain/GlobalConstant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-server/src/main/java/com/revengemission/sso/oauth2/server/domain/InvalidClientException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-server/src/main/java/com/revengemission/sso/oauth2/server/domain/JsonObjects.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-server/src/main/java/com/revengemission/sso/oauth2/server/domain/LoginHistory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-server/src/main/java/com/revengemission/sso/oauth2/server/domain/NotImplementException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-server/src/main/java/com/revengemission/sso/oauth2/server/domain/OauthClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-server/src/main/java/com/revengemission/sso/oauth2/server/domain/ParameterException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-server/src/main/java/com/revengemission/sso/oauth2/server/domain/ResponseResult.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-server/src/main/java/com/revengemission/sso/oauth2/server/domain/RoleEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-server/src/main/java/com/revengemission/sso/oauth2/server/domain/UserAccount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-server/src/main/java/com/revengemission/sso/oauth2/server/domain/UserInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-server/src/main/java/com/revengemission/sso/oauth2/server/domain/VerificationCodeException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-server/src/main/java/com/revengemission/sso/oauth2/server/persistence/entity/BaseEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-server/src/main/java/com/revengemission/sso/oauth2/server/persistence/entity/LoginHistoryEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-server/src/main/java/com/revengemission/sso/oauth2/server/persistence/entity/OauthClientEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-server/src/main/java/com/revengemission/sso/oauth2/server/persistence/entity/UserAccountEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-server/src/main/java/com/revengemission/sso/oauth2/server/persistence/repository/LoginHistoryRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-server/src/main/java/com/revengemission/sso/oauth2/server/persistence/repository/OauthClientRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-server/src/main/java/com/revengemission/sso/oauth2/server/persistence/repository/UserAccountRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-server/src/main/java/com/revengemission/sso/oauth2/server/service/CommonServiceInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-server/src/main/java/com/revengemission/sso/oauth2/server/service/LoginHistoryService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-server/src/main/java/com/revengemission/sso/oauth2/server/service/OauthClientService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-server/src/main/java/com/revengemission/sso/oauth2/server/service/UserAccountService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-server/src/main/java/com/revengemission/sso/oauth2/server/service/impl/ClientDetailsServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-server/src/main/java/com/revengemission/sso/oauth2/server/service/impl/LoginHistoryServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-server/src/main/java/com/revengemission/sso/oauth2/server/service/impl/OauthClientServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-server/src/main/java/com/revengemission/sso/oauth2/server/service/impl/UserAccountServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-server/src/main/java/com/revengemission/sso/oauth2/server/service/impl/UserDetailsServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-server/src/main/java/com/revengemission/sso/oauth2/server/utils/CheckPasswordStrength.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-server/src/main/java/com/revengemission/sso/oauth2/server/utils/ClientIPUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-server/src/main/java/com/revengemission/sso/oauth2/server/utils/DateUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-server/src/main/java/com/revengemission/sso/oauth2/server/utils/JSONUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-server/src/main/java/com/revengemission/sso/oauth2/server/utils/VerifyCodeUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-server/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-server/src/main/resources/dozer/mapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-server/src/main/resources/jwt.jks" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-server/src/main/resources/messages.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-server/src/main/resources/sql/init.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-server/src/main/resources/static/assets/DataTables/AutoFill-2.3.0/css/autoFill.bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-server/src/main/resources/static/assets/DataTables/AutoFill-2.3.0/css/autoFill.bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-server/src/main/resources/static/assets/DataTables/AutoFill-2.3.0/css/autoFill.bootstrap4.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-server/src/main/resources/static/assets/DataTables/AutoFill-2.3.0/css/autoFill.bootstrap4.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-server/src/main/resources/static/assets/DataTables/AutoFill-2.3.0/css/autoFill.dataTables.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-server/src/main/resources/static/assets/DataTables/AutoFill-2.3.0/css/autoFill.dataTables.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-server/src/main/resources/static/assets/DataTables/AutoFill-2.3.0/css/autoFill.foundation.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-server/src/main/resources/static/assets/DataTables/AutoFill-2.3.0/css/autoFill.foundation.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-server/src/main/resources/static/assets/DataTables/AutoFill-2.3.0/css/autoFill.jqueryui.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-server/src/main/resources/static/assets/DataTables/AutoFill-2.3.0/css/autoFill.jqueryui.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-server/src/main/resources/static/assets/DataTables/AutoFill-2.3.0/css/autoFill.semanticui.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-server/src/main/resources/static/assets/DataTables/AutoFill-2.3.0/css/autoFill.semanticui.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-server/src/main/resources/static/assets/DataTables/AutoFill-2.3.0/js/autoFill.bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-server/src/main/resources/static/assets/DataTables/AutoFill-2.3.0/js/autoFill.bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-server/src/main/resources/static/assets/DataTables/AutoFill-2.3.0/js/autoFill.bootstrap4.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-server/src/main/resources/static/assets/DataTables/AutoFill-2.3.0/js/autoFill.bootstrap4.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-server/src/main/resources/static/assets/DataTables/AutoFill-2.3.0/js/autoFill.foundation.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-server/src/main/resources/static/assets/DataTables/AutoFill-2.3.0/js/autoFill.foundation.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-server/src/main/resources/static/assets/DataTables/AutoFill-2.3.0/js/autoFill.jqueryui.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-server/src/main/resources/static/assets/DataTables/AutoFill-2.3.0/js/autoFill.jqueryui.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-server/src/main/resources/static/assets/DataTables/AutoFill-2.3.0/js/autoFill.semanticui.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-server/src/main/resources/static/assets/DataTables/AutoFill-2.3.0/js/autoFill.semanticui.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-server/src/main/resources/static/assets/DataTables/AutoFill-2.3.0/js/dataTables.autoFill.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-server/src/main/resources/static/assets/DataTables/AutoFill-2.3.0/js/dataTables.autoFill.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-server/src/main/resources/static/assets/DataTables/Buttons-1.5.2/License.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-server/src/main/resources/static/assets/DataTables/Buttons-1.5.2/Readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-server/src/main/resources/static/assets/DataTables/Buttons-1.5.2/css/buttons.bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-server/src/main/resources/static/assets/DataTables/Buttons-1.5.2/css/buttons.bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-server/src/main/resources/static/assets/DataTables/Buttons-1.5.2/css/buttons.bootstrap4.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-server/src/main/resources/static/assets/DataTables/Buttons-1.5.2/css/buttons.bootstrap4.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-server/src/main/resources/static/assets/DataTables/Buttons-1.5.2/css/buttons.dataTables.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-server/src/main/resources/static/assets/DataTables/Buttons-1.5.2/css/buttons.dataTables.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-server/src/main/resources/static/assets/DataTables/Buttons-1.5.2/css/buttons.foundation.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-server/src/main/resources/static/assets/DataTables/Buttons-1.5.2/css/buttons.foundation.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-server/src/main/resources/static/assets/DataTables/Buttons-1.5.2/css/buttons.jqueryui.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-server/src/main/resources/static/assets/DataTables/Buttons-1.5.2/css/buttons.jqueryui.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-server/src/main/resources/static/assets/DataTables/Buttons-1.5.2/css/buttons.semanticui.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-server/src/main/resources/static/assets/DataTables/Buttons-1.5.2/css/buttons.semanticui.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-server/src/main/resources/static/assets/DataTables/Buttons-1.5.2/css/common.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-server/src/main/resources/static/assets/DataTables/Buttons-1.5.2/css/mixins.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-server/src/main/resources/static/assets/DataTables/Buttons-1.5.2/js/buttons.bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-server/src/main/resources/static/assets/DataTables/Buttons-1.5.2/js/buttons.bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-server/src/main/resources/static/assets/DataTables/Buttons-1.5.2/js/buttons.bootstrap4.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-server/src/main/resources/static/assets/DataTables/Buttons-1.5.2/js/buttons.bootstrap4.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-server/src/main/resources/static/assets/DataTables/Buttons-1.5.2/js/buttons.colVis.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-server/src/main/resources/static/assets/DataTables/Buttons-1.5.2/js/buttons.colVis.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-server/src/main/resources/static/assets/DataTables/Buttons-1.5.2/js/buttons.dataTables.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-server/src/main/resources/static/assets/DataTables/Buttons-1.5.2/js/buttons.flash.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-server/src/main/resources/static/assets/DataTables/Buttons-1.5.2/js/buttons.flash.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-server/src/main/resources/static/assets/DataTables/Buttons-1.5.2/js/buttons.foundation.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-server/src/main/resources/static/assets/DataTables/Buttons-1.5.2/js/buttons.foundation.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-server/src/main/resources/static/assets/DataTables/Buttons-1.5.2/js/buttons.html5.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-server/src/main/resources/static/assets/DataTables/Buttons-1.5.2/js/buttons.html5.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-server/src/main/resources/static/assets/DataTables/Buttons-1.5.2/js/buttons.jqueryui.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-server/src/main/resources/static/assets/DataTables/Buttons-1.5.2/js/buttons.jqueryui.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-server/src/main/resources/static/assets/DataTables/Buttons-1.5.2/js/buttons.print.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-server/src/main/resources/static/assets/DataTables/Buttons-1.5.2/js/buttons.print.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-server/src/main/resources/static/assets/DataTables/Buttons-1.5.2/js/buttons.semanticui.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-server/src/main/resources/static/assets/DataTables/Buttons-1.5.2/js/buttons.semanticui.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-server/src/main/resources/static/assets/DataTables/Buttons-1.5.2/js/dataTables.buttons.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-server/src/main/resources/static/assets/DataTables/Buttons-1.5.2/js/dataTables.buttons.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-server/src/main/resources/static/assets/DataTables/Buttons-1.5.2/swf/flashExport.swf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-server/src/main/resources/static/assets/DataTables/DataTables-1.10.18/css/dataTables.bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-server/src/main/resources/static/assets/DataTables/DataTables-1.10.18/css/dataTables.bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-server/src/main/resources/static/assets/DataTables/DataTables-1.10.18/css/dataTables.bootstrap4.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-server/src/main/resources/static/assets/DataTables/DataTables-1.10.18/css/dataTables.bootstrap4.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-server/src/main/resources/static/assets/DataTables/DataTables-1.10.18/css/dataTables.foundation.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-server/src/main/resources/static/assets/DataTables/DataTables-1.10.18/css/dataTables.foundation.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-server/src/main/resources/static/assets/DataTables/DataTables-1.10.18/css/dataTables.jqueryui.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-server/src/main/resources/static/assets/DataTables/DataTables-1.10.18/css/dataTables.jqueryui.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-server/src/main/resources/static/assets/DataTables/DataTables-1.10.18/css/dataTables.semanticui.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-server/src/main/resources/static/assets/DataTables/DataTables-1.10.18/css/dataTables.semanticui.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-server/src/main/resources/static/assets/DataTables/DataTables-1.10.18/css/jquery.dataTables.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-server/src/main/resources/static/assets/DataTables/DataTables-1.10.18/css/jquery.dataTables.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-server/src/main/resources/static/assets/DataTables/DataTables-1.10.18/images/sort_asc.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-server/src/main/resources/static/assets/DataTables/DataTables-1.10.18/images/sort_asc_disabled.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-server/src/main/resources/static/assets/DataTables/DataTables-1.10.18/images/sort_both.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-server/src/main/resources/static/assets/DataTables/DataTables-1.10.18/images/sort_desc.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-server/src/main/resources/static/assets/DataTables/DataTables-1.10.18/images/sort_desc_disabled.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-server/src/main/resources/static/assets/DataTables/DataTables-1.10.18/js/dataTables.bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-server/src/main/resources/static/assets/DataTables/DataTables-1.10.18/js/dataTables.bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-server/src/main/resources/static/assets/DataTables/DataTables-1.10.18/js/dataTables.bootstrap4.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-server/src/main/resources/static/assets/DataTables/DataTables-1.10.18/js/dataTables.bootstrap4.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-server/src/main/resources/static/assets/DataTables/DataTables-1.10.18/js/dataTables.foundation.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-server/src/main/resources/static/assets/DataTables/DataTables-1.10.18/js/dataTables.foundation.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-server/src/main/resources/static/assets/DataTables/DataTables-1.10.18/js/dataTables.jqueryui.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-server/src/main/resources/static/assets/DataTables/DataTables-1.10.18/js/dataTables.jqueryui.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-server/src/main/resources/static/assets/DataTables/DataTables-1.10.18/js/dataTables.semanticui.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-server/src/main/resources/static/assets/DataTables/DataTables-1.10.18/js/dataTables.semanticui.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-server/src/main/resources/static/assets/DataTables/DataTables-1.10.18/js/jquery.dataTables.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-server/src/main/resources/static/assets/DataTables/DataTables-1.10.18/js/jquery.dataTables.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-server/src/main/resources/static/assets/DataTables/Select-1.2.6/License.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-server/src/main/resources/static/assets/DataTables/Select-1.2.6/Readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-server/src/main/resources/static/assets/DataTables/Select-1.2.6/css/select.bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-server/src/main/resources/static/assets/DataTables/Select-1.2.6/css/select.bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-server/src/main/resources/static/assets/DataTables/Select-1.2.6/css/select.bootstrap4.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-server/src/main/resources/static/assets/DataTables/Select-1.2.6/css/select.bootstrap4.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-server/src/main/resources/static/assets/DataTables/Select-1.2.6/css/select.dataTables.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-server/src/main/resources/static/assets/DataTables/Select-1.2.6/css/select.dataTables.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-server/src/main/resources/static/assets/DataTables/Select-1.2.6/css/select.foundation.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-server/src/main/resources/static/assets/DataTables/Select-1.2.6/css/select.foundation.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-server/src/main/resources/static/assets/DataTables/Select-1.2.6/css/select.jqueryui.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-server/src/main/resources/static/assets/DataTables/Select-1.2.6/css/select.jqueryui.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-server/src/main/resources/static/assets/DataTables/Select-1.2.6/css/select.semanticui.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-server/src/main/resources/static/assets/DataTables/Select-1.2.6/css/select.semanticui.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-server/src/main/resources/static/assets/DataTables/Select-1.2.6/js/dataTables.select.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-server/src/main/resources/static/assets/DataTables/Select-1.2.6/js/dataTables.select.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-server/src/main/resources/static/assets/DataTables/Select-1.2.6/js/select.bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-server/src/main/resources/static/assets/DataTables/Select-1.2.6/js/select.bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-server/src/main/resources/static/assets/DataTables/Select-1.2.6/js/select.bootstrap4.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-server/src/main/resources/static/assets/DataTables/Select-1.2.6/js/select.bootstrap4.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-server/src/main/resources/static/assets/DataTables/Select-1.2.6/js/select.dataTables.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-server/src/main/resources/static/assets/DataTables/Select-1.2.6/js/select.foundation.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-server/src/main/resources/static/assets/DataTables/Select-1.2.6/js/select.foundation.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-server/src/main/resources/static/assets/DataTables/Select-1.2.6/js/select.jqueryui.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-server/src/main/resources/static/assets/DataTables/Select-1.2.6/js/select.jqueryui.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-server/src/main/resources/static/assets/DataTables/Select-1.2.6/js/select.semanticui.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-server/src/main/resources/static/assets/DataTables/Select-1.2.6/js/select.semanticui.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-server/src/main/resources/static/assets/DataTables/datatables.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-server/src/main/resources/static/assets/DataTables/datatables.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-server/src/main/resources/static/assets/DataTables/datatables.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-server/src/main/resources/static/assets/DataTables/datatables.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-server/src/main/resources/static/assets/bootstrap/css/bootstrap-grid.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-server/src/main/resources/static/assets/bootstrap/css/bootstrap-grid.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-server/src/main/resources/static/assets/bootstrap/css/bootstrap-grid.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-server/src/main/resources/static/assets/bootstrap/css/bootstrap-grid.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-server/src/main/resources/static/assets/bootstrap/css/bootstrap-reboot.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-server/src/main/resources/static/assets/bootstrap/css/bootstrap-reboot.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-server/src/main/resources/static/assets/bootstrap/css/bootstrap-reboot.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-server/src/main/resources/static/assets/bootstrap/css/bootstrap-reboot.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-server/src/main/resources/static/assets/bootstrap/css/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-server/src/main/resources/static/assets/bootstrap/css/bootstrap.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-server/src/main/resources/static/assets/bootstrap/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-server/src/main/resources/static/assets/bootstrap/css/bootstrap.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-server/src/main/resources/static/assets/bootstrap/js/bootstrap.bundle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-server/src/main/resources/static/assets/bootstrap/js/bootstrap.bundle.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-server/src/main/resources/static/assets/bootstrap/js/bootstrap.bundle.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-server/src/main/resources/static/assets/bootstrap/js/bootstrap.bundle.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-server/src/main/resources/static/assets/bootstrap/js/bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-server/src/main/resources/static/assets/bootstrap/js/bootstrap.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-server/src/main/resources/static/assets/bootstrap/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-server/src/main/resources/static/assets/bootstrap/js/bootstrap.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-server/src/main/resources/static/assets/fontawesome-all.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-server/src/main/resources/static/assets/jquery-3.3.1.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-server/src/main/resources/static/assets/localforage.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-server/src/main/resources/static/assets/moment-with-locales.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-server/src/main/resources/static/assets/sweetalert2/sweetalert2.all.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-server/src/main/resources/static/assets/sweetalert2/sweetalert2.all.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-server/src/main/resources/static/assets/sweetalert2/sweetalert2.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-server/src/main/resources/static/assets/sweetalert2/sweetalert2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-server/src/main/resources/static/assets/sweetalert2/sweetalert2.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-server/src/main/resources/static/assets/sweetalert2/sweetalert2.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-server/src/main/resources/static/assets/web-fonts-with-css/css/fa-brands.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-server/src/main/resources/static/assets/web-fonts-with-css/css/fa-brands.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-server/src/main/resources/static/assets/web-fonts-with-css/css/fa-regular.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-server/src/main/resources/static/assets/web-fonts-with-css/css/fa-regular.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-server/src/main/resources/static/assets/web-fonts-with-css/css/fa-solid.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-server/src/main/resources/static/assets/web-fonts-with-css/css/fa-solid.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-server/src/main/resources/static/assets/web-fonts-with-css/css/fontawesome-all.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-server/src/main/resources/static/assets/web-fonts-with-css/css/fontawesome-all.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-server/src/main/resources/static/assets/web-fonts-with-css/css/fontawesome.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-server/src/main/resources/static/assets/web-fonts-with-css/css/fontawesome.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-server/src/main/resources/static/assets/web-fonts-with-css/less/_animated.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-server/src/main/resources/static/assets/web-fonts-with-css/less/_bordered-pulled.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-server/src/main/resources/static/assets/web-fonts-with-css/less/_core.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-server/src/main/resources/static/assets/web-fonts-with-css/less/_fixed-width.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-server/src/main/resources/static/assets/web-fonts-with-css/less/_icons.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-server/src/main/resources/static/assets/web-fonts-with-css/less/_larger.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-server/src/main/resources/static/assets/web-fonts-with-css/less/_list.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-server/src/main/resources/static/assets/web-fonts-with-css/less/_mixins.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-server/src/main/resources/static/assets/web-fonts-with-css/less/_rotated-flipped.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-server/src/main/resources/static/assets/web-fonts-with-css/less/_screen-reader.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-server/src/main/resources/static/assets/web-fonts-with-css/less/_stacked.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-server/src/main/resources/static/assets/web-fonts-with-css/less/_variables.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-server/src/main/resources/static/assets/web-fonts-with-css/less/fa-brands.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-server/src/main/resources/static/assets/web-fonts-with-css/less/fa-regular.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-server/src/main/resources/static/assets/web-fonts-with-css/less/fa-solid.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-server/src/main/resources/static/assets/web-fonts-with-css/less/fontawesome.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-server/src/main/resources/static/assets/web-fonts-with-css/scss/_animated.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-server/src/main/resources/static/assets/web-fonts-with-css/scss/_bordered-pulled.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-server/src/main/resources/static/assets/web-fonts-with-css/scss/_core.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-server/src/main/resources/static/assets/web-fonts-with-css/scss/_fixed-width.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-server/src/main/resources/static/assets/web-fonts-with-css/scss/_icons.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-server/src/main/resources/static/assets/web-fonts-with-css/scss/_larger.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-server/src/main/resources/static/assets/web-fonts-with-css/scss/_list.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-server/src/main/resources/static/assets/web-fonts-with-css/scss/_mixins.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-server/src/main/resources/static/assets/web-fonts-with-css/scss/_rotated-flipped.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-server/src/main/resources/static/assets/web-fonts-with-css/scss/_screen-reader.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-server/src/main/resources/static/assets/web-fonts-with-css/scss/_stacked.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-server/src/main/resources/static/assets/web-fonts-with-css/scss/_variables.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-server/src/main/resources/static/assets/web-fonts-with-css/scss/fa-brands.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-server/src/main/resources/static/assets/web-fonts-with-css/scss/fa-regular.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-server/src/main/resources/static/assets/web-fonts-with-css/scss/fa-solid.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-server/src/main/resources/static/assets/web-fonts-with-css/scss/fontawesome.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-server/src/main/resources/static/assets/web-fonts-with-css/webfonts/fa-brands-400.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-server/src/main/resources/static/assets/web-fonts-with-css/webfonts/fa-brands-400.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-server/src/main/resources/static/assets/web-fonts-with-css/webfonts/fa-brands-400.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-server/src/main/resources/static/assets/web-fonts-with-css/webfonts/fa-brands-400.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-server/src/main/resources/static/assets/web-fonts-with-css/webfonts/fa-brands-400.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-server/src/main/resources/static/assets/web-fonts-with-css/webfonts/fa-regular-400.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-server/src/main/resources/static/assets/web-fonts-with-css/webfonts/fa-regular-400.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-server/src/main/resources/static/assets/web-fonts-with-css/webfonts/fa-regular-400.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-server/src/main/resources/static/assets/web-fonts-with-css/webfonts/fa-regular-400.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-server/src/main/resources/static/assets/web-fonts-with-css/webfonts/fa-regular-400.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-server/src/main/resources/static/assets/web-fonts-with-css/webfonts/fa-solid-900.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-server/src/main/resources/static/assets/web-fonts-with-css/webfonts/fa-solid-900.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-server/src/main/resources/static/assets/web-fonts-with-css/webfonts/fa-solid-900.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-server/src/main/resources/static/assets/web-fonts-with-css/webfonts/fa-solid-900.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-server/src/main/resources/static/assets/web-fonts-with-css/webfonts/fa-solid-900.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-server/src/main/resources/templates/accessConfirmation.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-server/src/main/resources/templates/client/master.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-server/src/main/resources/templates/oauthError.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-server/src/main/resources/templates/profile.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-server/src/main/resources/templates/signIn.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-server/src/main/resources/templates/signUp.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-server/src/main/resources/templates/user/master.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-server/src/test/java/com/revengemission/sso/oauth2/server/OAuth2Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-server/src/test/java/com/revengemission/sso/oauth2/server/SimpleTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-server/src/test/resources/static/imgs/clients.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-server/src/test/resources/static/imgs/login.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2-server/src/test/resources/static/imgs/users.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__antlr_antlr_2_7_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_3_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_9_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_9_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_9_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_9_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_jsr305_3_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_errorprone_error_prone_annotations_2_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_failureaccess_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_27_0_jre.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_listenablefuture_9999_0_empty_to_avoid_conflict_with_guava.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_j2objc_j2objc_annotations_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_zaxxer_HikariCP_3_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_beanutils_commons_beanutils_1_9_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_collections_commons_collections_3_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_micrometer_micrometer_core_1_0_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_micrometer_micrometer_core_1_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_activation_javax_activation_api_1_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_annotation_javax_annotation_api_1_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_persistence_javax_persistence_api_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_transaction_javax_transaction_api_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_validation_validation_api_2_0_1_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_xml_bind_jaxb_api_2_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_7_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_9_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_7_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_9_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_accessors_smart_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_json_smart_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_sf_dozer_dozer_5_5_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_sf_dozer_dozer_spring_5_5_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_8_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_text_1_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_10_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_11_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_10_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_11_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_8_5_34.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_8_5_34.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_9_0_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_8_5_34.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_8_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_9_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_assertj_assertj_core_3_11_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_assertj_assertj_core_3_9_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_attoparser_attoparser_2_0_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bouncycastle_bcpkix_jdk15on_1_56.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bouncycastle_bcprov_jdk15on_1_56.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_checkerframework_checker_qual_2_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jackson_jackson_core_asl_1_9_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jackson_jackson_mapper_asl_1_9_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_mojo_animal_sniffer_annotations_1_17.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_dom4j_dom4j_2_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_library_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hdrhistogram_HdrHistogram_2_1_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hdrhistogram_HdrHistogram_2_1_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_common_hibernate_commons_annotations_5_0_4_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_core_5_3_7_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_0_13_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_23_1_GA.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_jandex_2_0_5_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_2_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_latencyutils_LatencyUtils_2_0_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_2_15_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_2_23_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_2_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jcl_over_slf4j_1_7_25.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_25.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_25.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_0_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_1_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_actuator_2_0_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_actuator_2_1_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_actuator_autoconfigure_2_0_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_actuator_autoconfigure_2_1_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_0_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_1_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_devtools_2_0_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_devtools_2_1_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_0_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_1_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_actuator_2_0_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_actuator_2_1_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_aop_2_0_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_aop_2_1_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_jpa_2_1_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_1_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_0_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_1_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_0_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_1_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_0_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_1_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_thymeleaf_2_0_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_thymeleaf_2_1_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_0_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_1_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_0_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_1_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_0_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_1_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_0_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_1_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_commons_2_1_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_jpa_2_1_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_oauth_spring_security_oauth2_2_3_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_config_5_0_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_config_5_1_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_core_5_0_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_core_5_1_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_jwt_1_0_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_web_5_0_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_web_5_1_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_0_10_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_1_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aspects_5_1_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_0_10_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_1_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_0_10_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_1_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_0_10_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_1_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_0_10_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_1_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_0_10_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_1_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_5_1_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_orm_5_1_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_5_0_10_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_5_1_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_1_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_0_10_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_1_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_0_10_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_1_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_extras_thymeleaf_extras_java8time_3_0_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_extras_thymeleaf_extras_springsecurity4_3_0_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_extras_thymeleaf_extras_springsecurity5_3_0_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_3_0_10_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_3_0_11_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_spring5_3_0_10_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_spring5_3_0_11_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_unbescape_unbescape_1_1_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_5_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_6_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_19.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_23.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oauth2-client/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/oauth2-client/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oauth2-resource/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/oauth2-resource/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oauth2-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/oauth2-server/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oauth2-server/src/main/java/com/revengemission/sso/oauth2/server/config/AuthorizationServerConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/oauth2-server/src/main/java/com/revengemission/sso/oauth2/server/config/AuthorizationServerConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oauth2-server/src/main/java/com/revengemission/sso/oauth2/server/controller/SignInAndUpController.java" beforeDir="false" afterPath="$PROJECT_DIR$/oauth2-server/src/main/java/com/revengemission/sso/oauth2/server/controller/SignInAndUpController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oauth2-server/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/oauth2-server/src/main/resources/application.yml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/oauth2-client/target/" />
+    <ignored path="$PROJECT_DIR$/oauth2-resource/target/" />
+    <ignored path="$PROJECT_DIR$/oauth2-server/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -567,70 +192,66 @@
     <session id="-1048848712">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="2" />
           <entry key="project.open.time.0" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.open.time.1" value="2" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
+          <entry key="class" value="2" />
           <entry key="gitignore" value="1" />
-          <entry key="java" value="5" />
-          <entry key="xml" value="3" />
+          <entry key="java" value="30" />
+          <entry key="md" value="1" />
+          <entry key="png" value="1" />
+          <entry key="properties" value="5" />
+          <entry key="sql" value="1" />
+          <entry key="txt" value="1" />
+          <entry key="vmoptions" value="1" />
+          <entry key="xml" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="5" />
-          <entry key="PLAIN_TEXT" value="1" />
-          <entry key="XML" value="3" />
+          <entry key="CLASS" value="2" />
+          <entry key="Image" value="1" />
+          <entry key="JAVA" value="30" />
+          <entry key="Markdown" value="1" />
+          <entry key="PLAIN_TEXT" value="3" />
+          <entry key="Properties" value="5" />
+          <entry key="SQL" value="1" />
+          <entry key="XML" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="xml" value="1" />
+          <entry key="java" value="7" />
+          <entry key="properties" value="54" />
+          <entry key="txt" value="9" />
+          <entry key="vmoptions" value="2" />
+          <entry key="xml" value="16" />
+          <entry key="yml" value="252" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="XML" value="1" />
+          <entry key="JAVA" value="7" />
+          <entry key="PLAIN_TEXT" value="11" />
+          <entry key="Properties" value="54" />
+          <entry key="XML" value="16" />
+          <entry key="YAML" value="252" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/oauth2-client/pom.xml">
+        <entry file="file://$PROJECT_DIR$/oauth2-server/src/main/java/com/revengemission/sso/oauth2/server/config/AuthorizationServerConfiguration.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/oauth2-client/src/main/java/com/revengemission/sso/oauth2/client/config/Oauth2ClientConfig.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/oauth2-client/src/main/java/com/revengemission/sso/oauth2/client/Oauth2ClientApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/oauth2-client/src/main/java/com/revengemission/sso/oauth2/client/controller/FrontIndexController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="24" column="38" lean-forward="true" selection-start-line="24" selection-start-column="38" selection-end-line="24" selection-end-column="38" />
+            <state relative-caret-position="1365">
+              <caret line="91" column="51" selection-start-line="91" selection-start-column="51" selection-end-line="91" selection-end-column="51" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -638,36 +259,61 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/oauth2-server/.gitignore">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/oauth2-server/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="117" column="4" lean-forward="true" selection-start-line="117" selection-start-column="4" selection-end-line="117" selection-end-column="4" />
+            <state relative-caret-position="375">
+              <caret line="25" column="22" lean-forward="true" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/oauth2-resource/pom.xml">
+        <entry file="file://$PROJECT_DIR$/oauth2-client/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="903">
-              <caret line="102" column="19" selection-start-line="102" selection-start-column="19" selection-end-line="102" selection-end-column="19" />
+            <state relative-caret-position="180">
+              <caret line="12" column="48" selection-start-line="12" selection-start-column="48" selection-end-line="12" selection-end-column="48" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/oauth2-server/pom.xml">
+        <entry file="file://$PROJECT_DIR$/oauth2-resource/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="903">
-              <caret line="183" column="19" selection-start-line="183" selection-start-column="19" selection-end-line="183" selection-end-column="19" />
+            <state relative-caret-position="195">
+              <caret line="13" selection-start-line="13" selection-end-line="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/oauth2-resource/src/main/java/com/revengemission/sso/oauth2/resource/coupon/ResourceServerApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/oauth2-resource/src/main/java/com/revengemission/sso/oauth2/resource/coupon/config/ResourceServerConfiguration.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="38" column="20" selection-start-line="38" selection-start-column="20" selection-end-line="38" selection-end-column="20" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>mysql</find>
+      <find>UserDetailsService</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
+    <option name="UPDATE_TYPE" value="MERGE" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
@@ -676,6 +322,16 @@
         <option value="$PROJECT_DIR$/oauth2-client/pom.xml" />
         <option value="$PROJECT_DIR$/oauth2-resource/pom.xml" />
         <option value="$PROJECT_DIR$/oauth2-server/pom.xml" />
+        <option value="$PROJECT_DIR$/oauth2-server/src/main/java/com/revengemission/sso/oauth2/server/controller/SignInAndUpController.java" />
+        <option value="$PROJECT_DIR$/oauth2-server/src/main/java/com/revengemission/sso/oauth2/server/config/AuthorizationServerConfiguration.java" />
+        <option value="$PROJECT_DIR$/oauth2-server/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/oauth2-client/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/oauth2-resource/src/main/resources/application.properties" />
+        <option value="$APPLICATION_CONFIG_DIR$/idea.vmoptions" />
+        <option value="$PROJECT_DIR$/.idea/workspace.xml" />
+        <option value="$PROJECT_DIR$/oauth2-server/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/oauth2-resource/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/oauth2-client/src/main/resources/application.yml" />
       </list>
     </option>
   </component>
@@ -684,6 +340,13 @@
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
   </component>
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths>
@@ -695,20 +358,25 @@
     <option name="width" value="1680" />
     <option name="height" value="960" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="false" id="Update" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="spring-boot-oauth2" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-boot-oauth2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-boot-oauth2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-boot-oauth2" type="462c0819:PsiDirectoryNode" />
+              <item name=".idea" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring-boot-oauth2" type="b2602c69:ProjectViewProjectNode" />
@@ -761,25 +429,140 @@
               <item name="oauth2-client" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring-boot-oauth2" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-boot-oauth2" type="462c0819:PsiDirectoryNode" />
               <item name="oauth2-resource" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="spring-boot-oauth2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-boot-oauth2" type="462c0819:PsiDirectoryNode" />
+              <item name="oauth2-resource" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-boot-oauth2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-boot-oauth2" type="462c0819:PsiDirectoryNode" />
+              <item name="oauth2-resource" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-boot-oauth2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-boot-oauth2" type="462c0819:PsiDirectoryNode" />
+              <item name="oauth2-resource" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-boot-oauth2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-boot-oauth2" type="462c0819:PsiDirectoryNode" />
+              <item name="oauth2-resource" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="coupon" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-boot-oauth2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-boot-oauth2" type="462c0819:PsiDirectoryNode" />
+              <item name="oauth2-resource" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="coupon" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-boot-oauth2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-boot-oauth2" type="462c0819:PsiDirectoryNode" />
+              <item name="oauth2-resource" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="coupon" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-boot-oauth2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-boot-oauth2" type="462c0819:PsiDirectoryNode" />
+              <item name="oauth2-resource" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-boot-oauth2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-boot-oauth2" type="462c0819:PsiDirectoryNode" />
+              <item name="oauth2-server" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-boot-oauth2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-boot-oauth2" type="462c0819:PsiDirectoryNode" />
+              <item name="oauth2-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-boot-oauth2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-boot-oauth2" type="462c0819:PsiDirectoryNode" />
+              <item name="oauth2-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-boot-oauth2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-boot-oauth2" type="462c0819:PsiDirectoryNode" />
+              <item name="oauth2-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-boot-oauth2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-boot-oauth2" type="462c0819:PsiDirectoryNode" />
+              <item name="oauth2-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-boot-oauth2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-boot-oauth2" type="462c0819:PsiDirectoryNode" />
+              <item name="oauth2-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-boot-oauth2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-boot-oauth2" type="462c0819:PsiDirectoryNode" />
+              <item name="oauth2-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542454454935" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542519237265" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -788,6 +571,11 @@
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
     <option name="ruleStates">
       <list>
         <RuleState>
@@ -799,6 +587,34 @@
       </list>
     </option>
   </component>
+  <component name="RunManager" selected="Spring Boot.ResourceServerApplication">
+    <configuration name="Oauth2ClientApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="oauth2-client" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.revengemission.sso.oauth2.client.Oauth2ClientApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Oauth2ServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="oauth2-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.revengemission.sso.oauth2.server.Oauth2ServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ResourceServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="oauth2-resource" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.revengemission.sso.oauth2.resource.coupon.ResourceServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Spring Boot.Oauth2ClientApplication" />
+      <item itemvalue="Spring Boot.ResourceServerApplication" />
+      <item itemvalue="Spring Boot.Oauth2ServerApplication" />
+    </list>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -809,44 +625,69 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1542453944708</updated>
-      <workItem from="1542453946291" duration="506000" />
+      <workItem from="1542453946291" duration="8437000" />
+      <workItem from="1542508403396" duration="81000" />
+      <workItem from="1542508495118" duration="2391000" />
     </task>
+    <task id="LOCAL-00001" summary="初始化">
+      <created>1542454471564</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1542454471564</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="506000" />
+    <option name="totallyTimeSpent" value="10909000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24969475" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25274727" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.32959184" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info active="true" anchor="bottom" id="Run Dashboard" visible="true" weight="0.32959184" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32959184" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Maven Projects" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32959184" />
+      <window_info anchor="bottom" id="Spring" order="7" weight="0.32959184" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32959184" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="10" />
+      <window_info anchor="bottom" id="Java Enterprise" order="11" weight="0.32959184" />
+      <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="13" weight="0.32959184" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Maven Projects" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Bean Validation" order="9" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -854,6 +695,12 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <MESSAGE value="初始化" />
+    <option name="LAST_COMMIT_MESSAGE" value="初始化" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/oauth2-resource/pom.xml">
@@ -863,48 +710,275 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/oauth2-server/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="903">
-          <caret line="183" column="19" selection-start-line="183" selection-start-column="19" selection-end-line="183" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/oauth2-server/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
-          <caret line="117" column="4" lean-forward="true" selection-start-line="117" selection-start-column="4" selection-end-line="117" selection-end-column="4" />
+          <caret line="117" column="4" selection-start-line="117" selection-start-column="4" selection-end-line="117" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oauth2-server/.idea/workspace.xml" />
+    <entry file="file://$PROJECT_DIR$/oauth2-server/src/test/resources/static/imgs/clients.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oauth2-server/src/main/resources/dozer/mapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="23" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oauth2-server/src/main/resources/sql/init.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="23" lean-forward="true" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oauth2-server/src/main/java/com/revengemission/sso/oauth2/server/ServerExceptionHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="34" column="68" selection-start-line="34" selection-start-column="68" selection-end-line="34" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oauth2-server/src/main/java/com/revengemission/sso/oauth2/server/persistence/entity/BaseEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oauth2-server/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="44" column="55" selection-start-line="44" selection-start-column="55" selection-end-line="44" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oauth2-server/src/main/java/com/revengemission/sso/oauth2/server/persistence/entity/OauthClientEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oauth2-server/src/main/java/com/revengemission/sso/oauth2/server/controller/ProfileController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.1.0.RELEASE/spring-boot-autoconfigure-2.1.0.RELEASE.jar!/org/springframework/boot/autoconfigure/security/servlet/UserDetailsServiceAutoConfiguration.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="317">
+          <caret line="46" column="38" selection-start-line="46" selection-start-column="38" selection-end-line="46" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/5.1.1.RELEASE/spring-security-core-5.1.1.RELEASE.jar!/org/springframework/security/core/userdetails/UserDetailsService.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oauth2-server/src/main/java/com/revengemission/sso/oauth2/server/Oauth2ServerApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="14" column="21" lean-forward="true" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oauth2-server/src/main/java/com/revengemission/sso/oauth2/server/controller/AccessConfirmationController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="43" column="36" lean-forward="true" selection-start-line="43" selection-start-column="36" selection-end-line="43" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oauth2-client/src/main/java/com/revengemission/sso/oauth2/client/controller/FrontIndexController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="42" selection-start-line="42" selection-end-line="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#552#595#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oauth2-server/src/main/java/com/revengemission/sso/oauth2/server/controller/VerificationCodeController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oauth2-server/src/main/java/com/revengemission/sso/oauth2/server/controller/ManageUserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="23" column="14" lean-forward="true" selection-start-line="23" selection-start-column="14" selection-end-line="23" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oauth2-server/src/main/java/com/revengemission/sso/oauth2/server/config/OthersConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oauth2-server/src/main/java/com/revengemission/sso/oauth2/server/config/CustomWebAuthenticationDetails.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oauth2-server/src/main/java/com/revengemission/sso/oauth2/server/config/SecurityConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-22">
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oauth2-server/src/main/java/com/revengemission/sso/oauth2/server/controller/SignInAndUpController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-191">
+          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oauth2-server/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="-8">
+            <caret line="69" column="15" lean-forward="true" selection-start-line="69" selection-start-column="15" selection-end-line="69" selection-end-column="15" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oauth2-server/src/main/java/com/revengemission/sso/oauth2/server/config/ResourceServerConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oauth2-server/src/main/java/com/revengemission/sso/oauth2/server/service/impl/UserDetailsServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="26" column="42" lean-forward="true" selection-start-line="26" selection-start-column="42" selection-end-line="26" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oauth2-resource/src/main/java/com/revengemission/sso/oauth2/resource/coupon/WebRequestLogAspect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-785">
+          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/oauth2-client/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oauth2-client/src/main/java/com/revengemission/sso/oauth2/client/config/SecurityConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/oauth2-client/src/main/java/com/revengemission/sso/oauth2/client/config/Oauth2ClientConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+        <state relative-caret-position="90">
+          <caret line="20" column="33" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
+          <folding>
+            <element signature="e#1226#1270#1" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/oauth2-client/src/main/java/com/revengemission/sso/oauth2/client/Oauth2ClientApplication.java">
+    <entry file="file://$APPLICATION_CONFIG_DIR$/idea.vmoptions">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="24" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oauth2-server/src/main/java/com/revengemission/sso/oauth2/server/config/AuthorizationServerConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1365">
+          <caret line="91" column="51" selection-start-line="91" selection-start-column="51" selection-end-line="91" selection-end-column="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oauth2-resource/src/main/java/com/revengemission/sso/oauth2/resource/coupon/ResourceServerApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/oauth2-client/src/main/java/com/revengemission/sso/oauth2/client/controller/FrontIndexController.java">
+    <entry file="file://$PROJECT_DIR$/oauth2-resource/src/main/java/com/revengemission/sso/oauth2/resource/coupon/config/ResourceServerConfiguration.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="24" column="38" lean-forward="true" selection-start-line="24" selection-start-column="38" selection-end-line="24" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="315">
+          <caret line="38" column="20" selection-start-line="38" selection-start-column="20" selection-end-line="38" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="584">
+          <caret line="722" column="13" lean-forward="true" selection-start-line="722" selection-start-column="13" selection-end-line="722" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oauth2-resource/src/main/resources/public.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oauth2-resource/src/main/java/com/revengemission/sso/oauth2/resource/coupon/controller/CouponController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oauth2-client/src/main/java/com/revengemission/sso/oauth2/client/Oauth2ClientApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oauth2-resource/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oauth2-client/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="48" selection-start-line="12" selection-start-column="48" selection-end-line="12" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oauth2-server/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="22" lean-forward="true" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
         </state>
       </provider>
     </entry>

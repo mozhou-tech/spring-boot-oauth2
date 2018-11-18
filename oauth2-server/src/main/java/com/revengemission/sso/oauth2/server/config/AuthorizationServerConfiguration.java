@@ -2,6 +2,7 @@ package com.revengemission.sso.oauth2.server.config;
 
 import com.revengemission.sso.oauth2.server.domain.UserInfo;
 import com.revengemission.sso.oauth2.server.service.impl.ClientDetailsServiceImpl;
+import com.revengemission.sso.oauth2.server.service.impl.UserDetailsServiceImpl;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.beans.factory.annotation.Value;
@@ -38,7 +39,7 @@ public class AuthorizationServerConfiguration extends AuthorizationServerConfigu
     ClientDetailsServiceImpl clientDetailsService;
 
     @Autowired
-    UserDetailsService userDetailsService;
+    UserDetailsServiceImpl userDetailsService;
 
     @Value("${jwt.jks.keypass:keypass}")
     private String keypass;

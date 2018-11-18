@@ -3,6 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/oauth2-client/oauth2-client.iml" filepath="$PROJECT_DIR$/oauth2-client/oauth2-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/oauth2-resource/oauth2-resource.iml" filepath="$PROJECT_DIR$/oauth2-resource/oauth2-resource.iml" />
+      <module fileurl="file://$PROJECT_DIR$/oauth2-server/oauth2-server.iml" filepath="$PROJECT_DIR$/oauth2-server/oauth2-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/spring-boot-oauth2.iml" filepath="$PROJECT_DIR$/.idea/spring-boot-oauth2.iml" />
     </modules>
   </component>

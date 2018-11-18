@@ -1,0 +1,18 @@
+server:
+  port: 886
+
+spring:
+  thymeleaf:
+    cache: false
+
+logging:
+  level:
+    root: info
+  org:
+    springframework:
+      security: debug
+  path: /data/logs/oauth2/resource
+  file:
+    max-history: 150
+
+tokenKeyUri: http://server.sso.com:888/oauth/token_key

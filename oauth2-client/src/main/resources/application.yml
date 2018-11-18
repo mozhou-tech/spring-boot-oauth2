@@ -1,0 +1,30 @@
+server:
+  port: 887
+security:
+  oauth2:
+    client:
+      id: server
+      client-id: SampleClientId
+      client-secret: secret
+      grant-type: authorization_code
+      scope: read
+      access-token-uri: http://server.sso.com:888/oauth/token
+      user-authorization-uri: http://server.sso.com:888/oauth/authorize
+      check-token-uri: http://server.sso.com:888/oauth/check_token
+      pre-established-redirect-uri: /login
+    resource:
+      user-info-uri: http://server.sso.com:886/user/me
+
+
+spring:
+  thymeleaf:
+    cache: false
+logging:
+  level:
+    root: info
+    org.springframework.security: debug
+  path: /data/logs/oauth2/client
+  file.max-history: 150
+
+host:
+  api: http://api.sso.com

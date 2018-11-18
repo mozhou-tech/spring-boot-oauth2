@@ -3,6 +3,7 @@ package com.revengemission.sso.oauth2.server.controller;
 import com.revengemission.sso.oauth2.server.domain.*;
 import com.revengemission.sso.oauth2.server.service.UserAccountService;
 import com.revengemission.sso.oauth2.server.utils.CheckPasswordStrength;
+import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang3.StringUtils;
 import org.apache.commons.text.StringEscapeUtils;
 import org.slf4j.Logger;
@@ -18,9 +19,9 @@ import org.springframework.web.bind.annotation.*;
 import javax.servlet.http.HttpServletRequest;
 import java.security.Principal;
 
+@Slf4j
 @Controller
 public class SignInAndUpController {
-    private Logger log = LoggerFactory.getLogger(this.getClass());
 
     @Autowired
     UserAccountService userAccountService;
